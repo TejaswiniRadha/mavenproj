@@ -1,6 +1,5 @@
 pipeline {
   agent {
-  }
   stages{
 	stage("maven"){
 	  steps {
@@ -9,4 +8,5 @@ pipeline {
 	}
 
   }
+}
 }
